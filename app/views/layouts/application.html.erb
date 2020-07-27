@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TestReactOnRailsV5243</title>
+    <title>React on Rails Tutorial</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,6 +9,11 @@
   </head>
 
   <body>
+    <%= react_component "NavigationBarApp" %>
+    <div class="container">
     <%= yield %>
+    </div>
+
+    <%= redux_store_hydration_data %>
   </body>
 </html>
