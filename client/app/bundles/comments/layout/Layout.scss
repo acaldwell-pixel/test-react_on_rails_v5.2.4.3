@@ -1,0 +1,19 @@
+:global {
+    body {
+        padding-top: 20px;
+    }
+
+    .active:visited,
+    .active {
+        color: purple;
+        font-weight: bold;
+        text-decoration: underline;
+    };
+
+    #nav.affix {
+        position: fixed;
+        top: 3px;
+        width: 80%;
+        z-index: 10;
+    }
+}
