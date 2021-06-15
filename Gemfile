@@ -56,5 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'mini_racer', platforms: :ruby
 
 # Shakacode react_on_rails
-gem "react_on_rails", "~> 12.0"
+gem 'react_on_rails', '~> 12.2'
 gem "rspec-rails", group: [:development, :test]
